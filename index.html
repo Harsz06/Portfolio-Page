@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harsh - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Harsh's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Harsh</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit GitHub</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Progressing in Web Development</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="" />
+            <div class="vertical-title">HTML Mastery</div>
+            <div class="vertical-desc">
+              Master HTML by understanding tags, attributes, and elements.
+              Practice creating forms, tables, and layouts. Build small projects
+              like interactive pages to solidify skills.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="css.png" alt="" />
+            <div class="vertical-title">Web Styling</div>
+            <div class="vertical-desc">
+              Master CSS by learning selectors, properties, box model, and
+              layouts. Practice styling text, colors, and animations. Build
+              projects like responsive websites.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="jscript.png" alt="" />
+            <div class="vertical-title">JS Essentials</div>
+            <div class="vertical-desc">
+              I've learned JavaScript : variables, functions, DOM manipulation,
+              and events. Now, I'm practicing by building projects like
+              simon-game, to-do lists to improve.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="git.png" alt="" />
+            <div class="vertical-title">Versioning System</div>
+            <div class="vertical-desc">
+              Master Git : commit, branch, merge, and push. Learn GitHub for
+              collaboration. Showcase projects like websites on our GitHub
+              profile.
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="node.png" alt="" />
+            <div class="vertical-title">Backend Scripting</div>
+            <div class="vertical-desc">
+              I've learned Node.js : modules, event loop, and Express. Now, I'm
+              practicing building APIs to strengthen my skills.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Harsh's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Contact</li>
+            <li>Legal</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>eBooks</li>
+            <li>Careers</li>
+            <li>Customer Reviews</li>
+            <li>Knowledge Base</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Events</li>
+            <li>Hosting</li>
+            <li>Support</li>
+            <li>Blog</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-rights">
+        Copyright &#169; harshportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Designer", "Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
